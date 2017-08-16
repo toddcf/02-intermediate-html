@@ -10,21 +10,21 @@
 	<form>
 
 		<label for="first-name">First Name:</label>
-		<input type="text" id="first-name" name="" required>
+		<input type="text" id="first-name" name="first-name" placeholder="John" required>
 
 		<label for="last-name">Last Name:</label>
-		<input type="text" id="last-name" name="" required>
+		<input type="text" id="last-name" name="last-name" placeholder="Smith" required>
 
 		<br>
 
 		<label for="male">Male:</label>
-		<input type="radio" id="male" name="gender">
+		<input type="radio" id="male" name="gender" value="male">
 
 		<label for="female">Female:</label>
-		<input type="radio" id="female" name="gender">
+		<input type="radio" id="female" name="gender" value="female">
 
 		<label for="other">Other:</label>
-		<input type="radio" id="other" name="gender">
+		<input type="radio" id="other" name="gender" value="other">
 
 		<br>
 
@@ -32,7 +32,7 @@
 		<input type="email" id="email" name="" required>
 
 		<label for="password">Password:</label>
-		<input type="password" id="password" name="" minlength="5" maxlength="10" required>
+		<input type="password" id="password" name="" pattern="{5, 10}" required>
 
 		<br>
 
